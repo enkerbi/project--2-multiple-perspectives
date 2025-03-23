@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Retro Italics, Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 50px;
     color:black;
@@ -41,3 +41,26 @@ body{
     
     grid-area: 3 / 3 / 3 / 3;
 }
+.scroll-container {
+    width: 100%;  /* Full width */
+    white-space: nowrap;  /* Prevents line breaks */
+    overflow-x: auto;  /* Enables horizontal scrolling */
+    scrollbar-width: none; /* Hides scrollbar (Firefox) */
+    -ms-overflow-style: none; /* Hides scrollbar (Internet Explorer) */
+    align-items: center;
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none; /* Hides scrollbar (Chrome, Safari) */
+}
+
+
+.item {
+    display: inline-block; /* Makes items stay in a row */
+    width: 15vh; /* Adjust width */
+    height: 20vh;
+    align-items: center;
+    margin-top: 10vh;
+    
+}
+

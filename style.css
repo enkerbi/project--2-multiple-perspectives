@@ -1,7 +1,7 @@
 body{
     background-color: black;
     color:#050505;
-    font-family: Retro Italics;
+    font-family: Retro Italics, Helvetica, Arial, sans-serif;
     font-size: 130px;
 }
 
@@ -60,4 +60,3 @@ a:visited{
     background-color: #050505;
     grid-area: 5 / 5 / 5/ 5;
 }
- 
